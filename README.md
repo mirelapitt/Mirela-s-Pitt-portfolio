@@ -6,11 +6,7 @@
 
 ## Built With
 
-- HTML & CSS
-
-## Live Demo
-
-[Portfolio-Online Link](https://mirelapitt.github.io/)
+- HTML & CSS & JS
 
 ## Authors
 
