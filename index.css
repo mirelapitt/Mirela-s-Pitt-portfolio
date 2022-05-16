@@ -564,12 +564,21 @@ form {
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .menu-up li {
   list-style: none;
   margin-top: 20px;
   margin-left: 15vw;
+}
+
+.close {
+  position: absolute;
+  color: #fff;
+  right: 20vw;
+  top: 2vh;
+  font-size: 30px;
 }
 
 #work_section {
@@ -581,7 +590,6 @@ form {
   background-color: white;
   padding-bottom: 50px;
 }
-
 
 /* media query */
 @media screen and (min-width: 765px) {
