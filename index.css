@@ -537,8 +537,58 @@ form {
   width: 96%;
 }
 
+.mobile_nav {
+  display: block;
+}
+
+.pop-up {
+  display: block;
+}
+
+.menu-up-container {
+  background-color: rgba(96, 112, 255, 0.9);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu-up {
+  margin-top: 20vh;
+}
+
+.menu-up li a {
+  color: #fff;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.menu-up li {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 15vw;
+}
+
+#work_section {
+  justify-content: stretch;
+  align-content: stretch;
+}
+
+#secondlast_section {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+
 /* media query */
 @media screen and (min-width: 765px) {
+  .mobile_nav {
+    display: none;
+  }
+
   .my-logo {
     font-size: 20px;
     font-weight: 600;
