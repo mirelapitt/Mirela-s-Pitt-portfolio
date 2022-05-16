@@ -96,7 +96,7 @@ header {
 
 .portfolio-link {
   position: relative;
-  
+
   top: 20%;
 }
 
@@ -123,7 +123,7 @@ a {
   color: white;
   font-size: 32px;
   font-weight: 600;
-  padding-top: 50px;
+  padding-top: -44px;
 }
 
 .ham {
@@ -223,7 +223,7 @@ a {
   margin-top: 11px;
 }
 
-.social_links2 > li {
+.social_links2>li {
   padding: 23px;
   list-style: none;
   display: inline-block;
@@ -232,7 +232,7 @@ a {
   margin-bottom: 10px;
 }
 
-.social_links > li {
+.social_links>li {
   list-style: none;
   display: inline-block;
   margin-left: -3px;
@@ -764,7 +764,7 @@ form {
     margin-top: -33px;
   }
 
-  .social_links2 > li {
+  .social_links2>li {
     padding: 24px;
     list-style: none;
     display: inline-block;
