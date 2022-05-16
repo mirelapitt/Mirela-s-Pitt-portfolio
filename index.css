@@ -687,12 +687,14 @@ form {
     margin-right: -21vw;
     margin-top: -35px;
     float: right;
+    color: rgb(0, 0, 0);
   }
 
   .desk_menu li {
     display: inline-block;
     margin-left: 22px;
     padding-left: 62px;
+    color: rgb(0, 0, 0);
   }
 
   .desk_menu a {
@@ -977,5 +979,5 @@ form {
 }
 
 .desk_menu {
-  display: none;
+  color: #fff;
 }
