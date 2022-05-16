@@ -969,6 +969,7 @@ form {
 
 .bar {
   background-color: #fff;
+  margin-left: -10rem;
 }
 
 /* breakpoint */
@@ -980,4 +981,11 @@ form {
 
 .desk_menu {
   color: #fff;
+  text-decoration: none;
+}
+
+.desk_menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: -10rem;
 }
