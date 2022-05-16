@@ -1,15 +1,7 @@
-const mbar = document.getElementById('pop');
-const closem = document.querySelector('.close');
-const mPopup = document.querySelector('.menu-up-container');
+const hamburger = document.querySelector('.ham');
+const nav_menu = document.querySelector('.navmenu')
 
-mbar.addEventListener('click', () => {
-  mPopup.classList.add('pop-up');
-});
-
-closem.addEventListener('click', () => {
-  mPopup.classList.remove('pop-up');
-});
-
-mPopup.addEventListener('click', () => {
-  mPopup.classList.remove('pop-up');
-});
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  nav_menu.classList.toggle('active');
+})
