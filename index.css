@@ -75,6 +75,10 @@ header {
 
 .navmenu.active {
   left: 0;
+  background-color: rgba(96, 112, 255, 0.7);
+  width: 100vw;
+  margin-top: -100px;
+  height: 100vh;
 }
 
 a {
