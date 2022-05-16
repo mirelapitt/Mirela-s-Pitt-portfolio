@@ -965,9 +965,17 @@ form {
   }
 }
 
+.bar {
+  background-color: #fff;
+}
+
 /* breakpoint */
 @media screen and (max-width: 765px) {
-  .desk_menu {
-    display: none;
+  .bar {
+    background-color: #0f27ff;
   }
+}
+
+.desk_menu {
+  display: none;
 }
