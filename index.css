@@ -53,6 +53,7 @@ main {
 header {
   width: 100%;
   background: #fff;
+  height: 70px;
   margin: 0;
   padding: 0;
 }
@@ -60,7 +61,15 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
+  height: 100%;
   align-items: center;
+}
+
+.brand {
+  padding-top: 12%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
 }
 
 .navmenu {
@@ -75,10 +84,19 @@ header {
 
 .navmenu.active {
   left: 0;
-  background-color: rgba(96, 112, 255, 0.7);
-  width: 100vw;
-  margin-top: -100px;
-  height: 100vh;
+  gap: 20px;
+  background-color: rgba(96, 112, 255, 0.8);
+  width: 100%;
+  margin-top: -80px;
+  height: 100%;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+
+.portfolio-link {
+  position: relative;
+  
+  top: 20%;
 }
 
 a {
@@ -89,10 +107,32 @@ a {
 .items {
   list-style: none;
   padding-left: 0;
+  margin-left: 30px;
+}
+
+.items1 {
+  margin-top: 20%;
+}
+
+.items:hover {
+  border: 2px solid rgba(96, 112, 255, 1);
+}
+
+.nav-link {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 50px;
 }
 
 .ham {
   cursor: pointer;
+  margin-right: 0%;
+}
+
+.ham.active {
+  padding-top: 18px;
+  margin-right: -8%;
 }
 
 .ham.active .bar:nth-child(2) {
@@ -101,10 +141,12 @@ a {
 
 .ham.active .bar:nth-child(1) {
   transform: translateY(10px) rotate(45deg);
+  background: whitesmoke;
 }
 
 .ham.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background: whitesmoke;
 }
 
 .bar {
