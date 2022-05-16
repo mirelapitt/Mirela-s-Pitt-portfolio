@@ -63,6 +63,7 @@ header {
   justify-content: space-between;
   height: 100%;
   align-items: center;
+  margin-top: 11px;
 }
 
 .brand {
@@ -153,19 +154,19 @@ a {
   display: block;
   width: 25px;
   height: 4px;
-  background-color:#6070ff;
-  ;
+  background-color: #6070ff;
   margin: 5px auto;
   margin-left: -103px;
 }
 
 .my-logo {
+  font-weight: bold;
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
   color: #0f27ff;
   margin: 16px;
-  margin-top: -34px;
+  margin-top: 11px;
 }
 
 .hamburger {
@@ -691,6 +692,10 @@ form {
   padding-bottom: 50px;
 }
 
+.bar {
+  display: block;
+}
+
 /* media query */
 @media screen and (min-width: 765px) {
   .mobile_nav {
@@ -721,18 +726,23 @@ form {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-right: 18vw;
+    margin-right: -21vw;
     margin-top: -35px;
+    float: right;
+    color: rgb(0, 0, 0);
   }
 
   .desk_menu li {
     display: inline-block;
     margin-left: 22px;
+    padding-left: 62px;
+    color: rgb(0, 0, 0);
   }
 
   .desk_menu a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    margin-left: -3rem;
   }
 
   .second-para p {
@@ -999,9 +1009,25 @@ form {
   }
 }
 
+.bar {
+  background-color: #fff;
+  margin-left: -10rem;
+}
+
 /* breakpoint */
 @media screen and (max-width: 765px) {
-  .desk_menu {
-    display: none;
+  .bar {
+    background-color: #0f27ff;
   }
+}
+
+.desk_menu {
+  color: #fff;
+  text-decoration: none;
+}
+
+.desk_menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: -10rem;
 }
