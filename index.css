@@ -690,6 +690,20 @@ form {
 
 /*modal popup */
 
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #fff;
+  width: 500px;
+  max-width: 80%;
+}
+
 /*.modal {
   position: fixed;
   top: 50%;
@@ -731,9 +745,9 @@ form {
 
 .modal-body {
   padding: 10px 15px;
-}
-
+}*/
 #overlay {
+  opacity: 0;
   position: fixed;
   transition: 200ms ease-in-out;
   top: 0;
@@ -746,9 +760,8 @@ form {
 }
 
 #overlay.active {
-  opacity: 0;
   pointer-events: all;
-}*/
+}
 /* media query */
 @media screen and (min-width: 765px) {
   .bar {

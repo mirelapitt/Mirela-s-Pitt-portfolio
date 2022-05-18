@@ -104,7 +104,8 @@ body.append(section);
                 </ul>
               </div>
         
-              <button class="see_project">Close</button> `;
+              <button class="see_project">Close</button>
+              <div class="active" id="overlay"></div> `;
 
               main.appendChild(popup);
               body.appendChild(main);  
