@@ -36,16 +36,15 @@ const body = document.querySelector('body')
 const section = document.createElement('section')
 body.append(section);
 
-      const open = document.querySelector('.see_project');
-      open.addEventListener('click', ()=> {
-        const popup = document.createElement('div');
-        popup.className = 'pop';
-        const main = document.createElement('div');
-        main.className = 'main';
-        popup.innerHTML = `
+const open = document.querySelector('.see_project');
+open.addEventListener('click', () => {
+  const popup = document.createElement('div');
+  popup.className = 'pop';
+  const main = document.createElement('div');
+  main.className = 'main';
+  popup.innerHTML = `
         <section id="works">
         <section class="modal_container1">
-         
 
               <div class="modal-header">
                 <h2>Tonic</h2>
@@ -67,21 +66,23 @@ body.append(section);
               <img class="img_desk img_modal" src="./images_desk/Snapshoot_Portfolio.jpg" alt="basketball-illustration" />
               <img class="img_mobi" src="./images_mobile/Snapshoot-icon.jpg" alt="man with dark hair" />
             </div>
-  
-              <div class="content_paragraph">
+
+           <div class="side_modal_container">
+           <div class="modaltext_side_info">
+              <div class="content_paragraph modal_paragraph">
                 <p>
-                  A daily selection of privately personalized reads; no accounts
-                  or sign-ups required.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
                 </p>
               </div>
   
-              <div class="desk_paragraph">
+              <div class="desk_paragraph modal_paragraph">
                 <p>
-                  A daily selection of privately personalized reads; no accounts
-                  or sign-ups required.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
                 </p>
               </div>
-  
+            </div>
+
+            <div class="modallist_side_info>
               <div class="tech_list1">
                 <ul class="list">
                   <li>
@@ -101,18 +102,46 @@ body.append(section);
                       <img src="./images_mobile/jstag.jpg" alt="js" />
                     </a>
                   </li>
+
                 </ul>
+
+                <ul class="list modal_desk_tag">
+                <li>
+                  <a href="">
+                     <img src="./modal_img/github_tag.jpg" alt="github tag" />
+                  </a>
+                  </li>
+                  
+                  <li>
+                  <a href="">
+                     <img src="./modal_img/ruby_tag.jpg" alt="github tag" />
+                  </a>
+                  </li>
+
+                  <li>
+                  <a href="">
+                     <img src="./modal_img/bootstraps_tag.jpg" alt="github tag" />
+                  </a>
+                  </li>
+                </ul>
+                <button class="see_project modal_seeProject">See live<img class="icon_img" src="./modal_img/Icon.jpg"></button>
+                <button class="see_project modal_seeProject">See source<img class="icon_img" src="./modal_img/Vector.jpg"></button>
               </div>
   
-              <button class="see_project">See live</button>
-              <button class="see_project">See source</button>
-  
+          </div>
+              
+              </div>
             </div>
           </div>
           </div>
         </section>`;
 
-              main.appendChild(popup);
-              body.appendChild(main);  
-      });
+  main.appendChild(popup);
+  body.appendChild(main);
+
+  const close = document.querySelector('.close-button');
+  close.addEventListener('click', () => {
+    body.removeChild(main);
+  })
+});
 

@@ -1,7 +1,99 @@
 
 /*modal popup */
 
-.modal {
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header, .tile {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header, .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: -15px;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+.main {
+  position: fixed;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(4px);
+}
+
+.main.active {
+  pointer-events: all;
+}
+
+.img_modal {
+  width: 1339px;
+  height: 265px;
+}
+
+.modal_container1 {
+  position: fixed;
+  top: 50%;
+  left: 41%;
+  right: 0%;
+  bottom: -31%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease-in-out;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #fff;
+  padding: 19px;
+  height: 761px;
+  align-items: center;
+}
+
+.tonic {
+    justify-content: space-between;
+}
+
+.modal_paragraph {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.modal_seeProject {
+  font-size: 61%;
+  margin-top: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.close_button {
+  font-size: 2rem;
+}
+
+.icon_img {
+  margin-left: 10px;
+}
+
+.modal_desk_tag {
+  display: none;
+}
+
+@media screen and (min-width: 765px) {
+  .modal {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -12,7 +104,7 @@
     z-index: 10;
     background-color: #fff;
     width: 500px;
-    max-width: 80%;
+    max-width: 100px;
   }
   
   .modal-header {
@@ -35,6 +127,7 @@
     background: none;
     font-size: 1.25rem;
     font-weight: bold;
+    margin-left: -15px;
   }
   
   .modal-body {
@@ -72,8 +165,45 @@
     border-radius: 10px;
     z-index: 10;
     background-color: #fff;
+    padding: 19px;
+    height: 761px;
+    align-items: center;
   }
 
   .tonic {
       justify-content: space-between;
   }
+
+  .modal_paragraph {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .modal_seeProject {
+    font-size: 61%;
+    margin-top: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+
+  .close_button {
+    font-size: 2rem;
+  }
+
+  .icon_img {
+    margin-left: 10px;
+  }
+
+  .modal_desk_tag {
+    display: flex;
+  }
+
+  .side_modal_container {
+    display: flex;
+  }
+
+  .modallist_side_info {
+   width: 1000px;
+  }
+}
+
