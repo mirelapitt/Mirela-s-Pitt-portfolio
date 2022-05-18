@@ -51,7 +51,7 @@
 .modal_container1 {
   position: fixed;
   top: 50%;
-  left: 41%;
+  left: 50%;
   right: 0%;
   bottom: -31%;
   transform: translate(-50%, -50%);
@@ -62,6 +62,7 @@
   padding: 19px;
   height: 761px;
   align-items: center;
+  min-width: 335px
 }
 
 .tonic {
@@ -93,6 +94,12 @@
 }
 
 @media screen and (min-width: 765px) {
+  .body {
+    display: block;
+    margin: 400px;
+    box-sizing: border-box;
+  }
+
   .modal {
     position: fixed;
     top: 50%;
@@ -137,12 +144,14 @@
   .main {
     position: fixed;
     transition: 200ms ease-in-out;
-    top: 0;
+    top: -1%;
     left: 0;
-    right: 0;
-    bottom: 0;
+    right: -144px;
+    bottom: -1%;
     background-color: rgba(0, 0, 0, .5);
     backdrop-filter: blur(4px);
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
   
   .main.active {
@@ -156,9 +165,9 @@
 
   .modal_container1 {
     position: fixed;
-    top: 50%;
-    left: 41%;
-    right: 0%;
+    top: 37rem;
+    left: 45%;
+    right: -3%;
     bottom: -31%;
     transform: translate(-50%, -50%);
     transition: 200ms ease-in-out;
@@ -166,8 +175,9 @@
     z-index: 10;
     background-color: #fff;
     padding: 19px;
-    height: 761px;
+    height: 66rem;
     align-items: center;
+    width: 70%;
   }
 
   .tonic {
@@ -177,6 +187,7 @@
   .modal_paragraph {
     font-size: 16px;
     line-height: 27px;
+    width: 47pc;
   }
 
   .modal_seeProject {
@@ -184,6 +195,8 @@
     margin-top: 26px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    width: 140px;
+    height: 47px;
   }
 
   .close_button {
@@ -200,10 +213,18 @@
 
   .side_modal_container {
     display: flex;
+    margin-left: 18px;
+    margin-left: -39px;
+    justify-content: space-evenly;
   }
 
-  .modallist_side_info {
-   width: 1000px;
+  .img_modal {
+    width: 90%;
+    height: 635px;
+    object-fit: cover;
+    margin-top: 20px;
+    max-width: 0 auto;
+    margin-left: 47px;
   }
 }
 

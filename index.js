@@ -66,7 +66,7 @@ open.addEventListener('click', () => {
               <img class="img_desk img_modal" src="./images_desk/Snapshoot_Portfolio.jpg" alt="basketball-illustration" />
               <img class="img_mobi" src="./images_mobile/Snapshoot-icon.jpg" alt="man with dark hair" />
             </div>
-
+</br>
            <div class="side_modal_container">
            <div class="modaltext_side_info">
               <div class="content_paragraph modal_paragraph">
@@ -82,7 +82,7 @@ open.addEventListener('click', () => {
               </div>
             </div>
 
-            <div class="modallist_side_info>
+            
               <div class="tech_list1">
                 <ul class="list">
                   <li>
@@ -124,11 +124,12 @@ open.addEventListener('click', () => {
                   </a>
                   </li>
                 </ul>
+
+
                 <button class="see_project modal_seeProject">See live<img class="icon_img" src="./modal_img/Icon.jpg"></button>
                 <button class="see_project modal_seeProject">See source<img class="icon_img" src="./modal_img/Vector.jpg"></button>
+
               </div>
-  
-          </div>
               
               </div>
             </div>
