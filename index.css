@@ -690,7 +690,7 @@ form {
 
 /*modal popup */
 
-.modal {
+/*.modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -748,7 +748,7 @@ form {
 #overlay.active {
   opacity: 0;
   pointer-events: all;
-}
+}*/
 /* media query */
 @media screen and (min-width: 765px) {
   .bar {
