@@ -595,8 +595,8 @@ form {
   float: left;
 }
 
-#msg,
-#msg2 {
+.msg,
+.msg2 {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -686,6 +686,23 @@ form {
 #secondlast_section {
   background-color: white;
   padding-bottom: 50px;
+}
+
+.form-submission-error {
+  margin: 10px 0;
+}
+
+/*form validation*/
+
+.form-submission-error {
+  margin: 10px 0;
+}
+
+.error {
+  color: #e9bbba;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 /* media query */
