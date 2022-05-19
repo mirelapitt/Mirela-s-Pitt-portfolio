@@ -69,6 +69,7 @@
 }
 
 .multipost-modal .technologies ul li {
+  display: inline;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -89,6 +90,13 @@
   right: 20px;
   background: transparent;
   opacity: 0.5;
+}
+
+.multipost-description {
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-size: 15px;
 }
 
 .multipost-contents .network {

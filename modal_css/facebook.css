@@ -69,6 +69,7 @@
 }
 
 .facebook-modal .technologies ul li {
+  display: inline;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -89,6 +90,13 @@
   right: 20px;
   background: transparent;
   opacity: 0.5;
+}
+
+.facebook-description {
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-size: 15px;
 }
 
 .facebook-contents .network {

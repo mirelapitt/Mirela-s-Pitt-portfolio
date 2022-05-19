@@ -5,14 +5,14 @@ const projects = [
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './modal_img/modal_nature.jpg',
-    technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
   {
     id: 2,
     name: 'Multi-Post Stores',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './images_desk/Snapshoot_Portfolio2.jpg',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     name: 'Facebook 360',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './images_desk/Snapshoot_Portfolio3.jpg',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -30,7 +30,7 @@ const projects = [
     id: 4,
     name: 'Uber Navigator',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './images_desk/Snapshoot_Portfolio4.jpg',
     technologies: ['html', 'css', 'javascript', 'Ruby and rails'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -52,7 +52,7 @@ openTonicModal.addEventListener('click', (e) => {
     stacks: projectStacks,
   } = tonic;
   const [canopy, backend, year] = projectStacks;
-  const [html, css, js, ruby] = projectTechnologies;
+  const [html, css, js, github, ruby, Bootstraps] = projectTechnologies;
   document.querySelector('.tonic-title').textContent = projectName;
   document.querySelector('.tonic-stack1').textContent = canopy.toUpperCase();
   document.querySelector('.tonic-stack2').textContent = backend;
@@ -62,7 +62,9 @@ openTonicModal.addEventListener('click', (e) => {
   document.querySelector('.tonic-html').textContent = html;
   document.querySelector('.tonic-css').textContent = css;
   document.querySelector('.tonic-javascript').textContent = js;
+  document.querySelector('.tonic-github').textContent = github;
   document.querySelector('.tonic-ruby').textContent = ruby;
+  document.querySelector('.tonic-bootstraps').textContent = Bootstraps;
 
   tonicModalContainer.classList.add('show');
 });

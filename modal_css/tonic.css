@@ -118,11 +118,14 @@
 
 .tonic-description {
   width: 70%;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
 }
 
 .side-tonic-container {
   margin-left: 5%;
 }
+
 .technologies {
   margin-bottom: 17px;
   display: flex;
@@ -131,8 +134,6 @@
 .technologies > ul > li {
   padding-bottom: 20px;
 }
-
-
 
 .tonic-contents .network svg {
   width: 20px;

@@ -21,7 +21,7 @@
 }
 
 .uber-modal {
-  width: 50%;
+  min-width: 50%;
   max-height: 95%;
   padding: 30px 50px;
   background-color: #fff;
@@ -69,6 +69,7 @@
 }
 
 .uber-modal .technologies ul li {
+  display: inline;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -89,6 +90,17 @@
   right: 20px;
   background: transparent;
   opacity: 0.5;
+}
+
+.uber-description {
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-size: 15px;
+}
+
+.side-uber-container {
+  margin-left: 5%;
 }
 
 .uber-contents .network {
