@@ -291,6 +291,8 @@ a {
   flex-direction: row;
 }
 
+
+
 .content-paragraph p {
   padding-left: 7px;
   font-size: 18px;
@@ -300,6 +302,11 @@ a {
 
 .desk_paragraph p {
   display: none;
+}
+
+.form-submission-error {
+  background: azure;
+  color: red;
 }
 
 .list {
@@ -690,6 +697,7 @@ form {
 
 .form-submission-error {
   margin: 10px 0;
+  background: none;
 }
 
 /*form validation*/
@@ -699,7 +707,7 @@ form {
 }
 
 .error {
-  color: #e9bbba;
+  color: red;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 500;
