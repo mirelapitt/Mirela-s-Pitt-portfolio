@@ -116,6 +116,24 @@
   padding: 8px;
 }
 
+.tonic-description {
+  width: 70%;
+}
+
+.side-tonic-container {
+  margin-left: 5%;
+}
+.technologies {
+  margin-bottom: 17px;
+  display: flex;
+}
+
+.technologies > ul > li {
+  padding-bottom: 20px;
+}
+
+
+
 .tonic-contents .network svg {
   width: 20px;
   height: 20px;
