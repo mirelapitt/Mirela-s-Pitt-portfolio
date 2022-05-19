@@ -687,7 +687,9 @@ form {
   background-color: white;
   padding-bottom: 50px;
 }
+
 /* form validation */
+
 .form-submission-error {
   background: azure;
   color: red;
@@ -1036,10 +1038,10 @@ form {
     letter-spacing: 1px;
     font-weight: 600;
   }
-  
 }
 
 /* breakpoint */
+
 @media screen and (max-width: 765px) {
   .bar {
     background-color: #0f27ff;
