@@ -157,4 +157,8 @@
   .facebook-stacks ul {
     display: flex;
   }
+
+  .facebook-side-container {
+    display: block;
+  }
 }

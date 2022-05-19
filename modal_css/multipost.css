@@ -157,4 +157,8 @@
   .multipost-stacks ul {
     display: flex;
   }
+
+  .multipost-side-container {
+    display: block;
+  }
 }

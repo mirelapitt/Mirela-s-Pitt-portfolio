@@ -164,4 +164,8 @@
   .tonic-stacks ul {
     display: flex;
   }
+
+  .tonic-side-container {
+    display: block;
+  }
 }

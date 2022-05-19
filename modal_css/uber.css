@@ -162,4 +162,8 @@
   .uber-modal-container {
     overflow: auto;
   }
+
+  .uber_side_container {
+    display: block;
+  }
 }
