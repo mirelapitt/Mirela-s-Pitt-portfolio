@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     name: 'Tonic',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     featuredImage: './modal_img/modal_nature.jpg',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     name: 'Multi-Post Stores',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     featuredImage: './images_desk/Snapshoot_Portfolio2.jpg',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     name: 'Facebook 360',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     featuredImage: './images_desk/Snapshoot_Portfolio3.jpg',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -30,7 +30,7 @@ const projects = [
     id: 4,
     name: 'Uber Navigator',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     featuredImage: './images_desk/Snapshoot_Portfolio4.jpg',
     technologies: ['html', 'css', 'javascript', 'Ruby and rails'],
     stacks: ['canopy', 'Backend Dev', '2015'],
