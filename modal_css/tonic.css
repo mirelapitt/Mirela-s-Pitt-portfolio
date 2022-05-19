@@ -38,6 +38,10 @@
   color: #091e42;
 }
 
+.technologies > ul > li {
+  padding-bottom: 20px;
+}
+
 .tonic-stacks ul li {
   font-style: normal;
   font-weight: normal;
@@ -99,7 +103,6 @@
 
 .network {
   display: none;
-
 }
 
 .tonic-contents .network {
@@ -129,10 +132,6 @@
 .technologies {
   margin-bottom: 17px;
   display: flex;
-}
-
-.technologies > ul > li {
-  padding-bottom: 20px;
 }
 
 .tonic-contents .network svg {

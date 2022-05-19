@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     name: 'Tonic',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and',
     featuredImage: './modal_img/modal_nature.jpg',
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     name: 'Multi-Post Stories',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and',
     featuredImage: './images_desk/Snapshoot_Portfolio2.jpg',
     technologies: ['html', 'ruby', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     name: 'Facebook 360',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and',
     featuredImage: './images_desk/Snapshoot_Portfolio3.jpg',
     technologies: ['html', 'ruby', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -30,7 +30,7 @@ const projects = [
     id: 4,
     name: 'Uber Navigator',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and',
     featuredImage: './images_desk/Snapshoot_Portfolio4.jpg',
     technologies: ['html', 'css', 'javascript', 'ruby'],
     stacks: ['canopy', 'Backend Dev', '2015'],
