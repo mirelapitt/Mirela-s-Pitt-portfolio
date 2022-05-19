@@ -10,11 +10,11 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Multi-Post Stores',
+    name: 'Multi-Post Stories',
     description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './images_desk/Snapshoot_Portfolio2.jpg',
-    technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
+    technologies: ['html', 'ruby', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './images_desk/Snapshoot_Portfolio3.jpg',
-    technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
+    technologies: ['html', 'ruby', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and', 
     featuredImage: './images_desk/Snapshoot_Portfolio4.jpg',
-    technologies: ['html', 'css', 'javascript', 'Ruby and rails'],
+    technologies: ['html', 'css', 'javascript', 'ruby'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
 ];

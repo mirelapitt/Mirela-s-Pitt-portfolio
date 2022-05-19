@@ -13,6 +13,7 @@
   pointer-events: none;
   transition: opacity 0.5s ease-in-out;
   backdrop-filter: blur(2px);
+  overflow-y: scroll;
 }
 
 .multipost-modal-container.show {
@@ -22,7 +23,7 @@
 
 .multipost-modal {
   width: 50%;
-  max-height: 95%;
+  max-height: 130%;
   padding: 30px 50px;
   background-color: #fff;
   border-radius: 24px;
@@ -33,7 +34,7 @@
 .multipost-modal h1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 25px;
   color: #091e42;
 }
@@ -54,11 +55,11 @@
   list-style: none;
 }
 
-.multipost-modal .image-holder {
+.multipost-modal .image-holder-multiposts {
   width: 100%;
 }
 
-.image-holder img {
+.image-holder-multiposts img {
   width: 100%;
   max-height: 450px;
 }
@@ -126,7 +127,7 @@
 .multipost-contents .network a span {
   color: #6070ff;
   margin-right: 6px;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .multipost-modal button:hover {
@@ -140,6 +141,10 @@
 
 .multipost-stacks ul {
   display: flex;
+}
+
+.multipost-side-container {
+  margin-left: 10px;
 }
 
 /* Media Queries for Desktop Screen - All scrren sizes within the range of 992px and below. */
@@ -168,5 +173,11 @@
 
   .multipost-side-container {
     display: block;
+  }
+
+  .multipost-contents .network {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -90px;
   }
 }

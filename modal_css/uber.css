@@ -13,6 +13,7 @@
   pointer-events: none;
   transition: opacity 0.5s ease-in-out;
   backdrop-filter: blur(2px);
+  overflow-y: scroll;
 }
 
 .uber-modal-container.show {
@@ -21,8 +22,8 @@
 }
 
 .uber-modal {
-  min-width: 50%;
-  max-height: 95%;
+  width: 50%;
+  max-height: 130%;
   padding: 30px 50px;
   background-color: #fff;
   border-radius: 24px;
@@ -115,6 +116,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 8px;
+  font-size: 9px;
 }
 
 .uber-contents .network svg {
@@ -130,7 +132,7 @@
 .uber-contents .network a span {
   color: #6070ff;
   margin-right: 6px;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .uber-modal button:hover {
@@ -144,6 +146,10 @@
 
 .uber-stacks ul {
   display: flex;
+}
+
+.uber_side_container {
+  margin-left: 10px;
 }
 
 /* Media Queries for Desktop Screen - All scrren sizes within the range of 992px and below. */
@@ -177,5 +183,15 @@
 
   .uber_side_container {
     display: block;
+  }
+
+  .technologies {
+    margin-left: -11px;
+  }
+
+  .uber-contents .network {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -90px;
   }
 }

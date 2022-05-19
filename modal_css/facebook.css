@@ -13,6 +13,7 @@
   pointer-events: none;
   transition: opacity 0.5s ease-in-out;
   backdrop-filter: blur(2px);
+  overflow-y: scroll;
 }
 
 .facebook-modal-container.show {
@@ -22,7 +23,7 @@
 
 .facebook-modal {
   width: 50%;
-  max-height: 95%;
+  max-height: 130%;
   padding: 30px 50px;
   background-color: #fff;
   border-radius: 24px;
@@ -111,6 +112,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 8px;
+  width: 100px;
 }
 
 .facebook-contents .network svg {
@@ -126,7 +128,7 @@
 .facebook-contents .network a span {
   color: #6070ff;
   margin-right: 6px;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .facebook-modal button:hover {
@@ -140,6 +142,10 @@
 
 .facebook-stacks ul {
   display: flex;
+}
+
+.facebook-side-container {
+  margin-left: 10px;
 }
 
 /* Media Queries for Desktop Screen - All scrren sizes within the range of 992px and below. */
@@ -168,5 +174,11 @@
 
   .facebook-side-container {
     display: block;
+  }
+
+  .facebook-contents .network {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -90px;
   }
 }

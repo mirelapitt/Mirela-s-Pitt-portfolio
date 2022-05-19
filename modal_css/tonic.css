@@ -54,11 +54,11 @@
   list-style: none;
 }
 
-.tonic-modal .image-holder {
+.tonic-modal .tonic-image-holder {
   width: 100%;
 }
 
-.image-holder img {
+.tonic-image-holder img {
   width: 100%;
   max-height: 450px;
 }
