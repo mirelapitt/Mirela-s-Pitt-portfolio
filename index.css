@@ -89,9 +89,18 @@ header {
   background-color: rgba(96, 112, 255, 0.8);
   width: 100%;
   margin-top: -80px;
-  height: 100%;
   backdrop-filter: blur(4px);
   align-items: flex-start;
+  min-height: 685px;
+}
+
+.unerline-bar-navmenu {
+  background-color: #0d151e;
+  width: 134px;
+  height: 5px;
+  border: 10px;
+  margin: auto;
+  margin-top: 432px;
 }
 
 .portfolio-link {
