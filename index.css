@@ -604,8 +604,8 @@ form {
   float: left;
 }
 
-#msg,
-#msg2 {
+.msg,
+.msg2 {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -695,6 +695,23 @@ form {
 #secondlast_section {
   background-color: white;
   padding-bottom: 50px;
+}
+
+/* form validation */
+
+.form-submission-error {
+  background: azure;
+  color: red;
+  margin: 10px 0;
+  width: 105%;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 33px;
 }
 
 /* media query */
@@ -1011,9 +1028,29 @@ form {
     margin-top: -37px;
     margin-bottom: -1rem;
   }
+
+  .contactme-title,
+  .contactme-title2 {
+    margin-left: -76px;
+  }
+
+  .form-submission-error {
+    background: azure;
+    color: red;
+    margin: 10px 0;
+    margin-left: -35px;
+  }
+
+  .error {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
 }
 
 /* breakpoint */
+
 @media screen and (max-width: 765px) {
   .bar {
     background-color: #0f27ff;

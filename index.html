@@ -550,29 +550,31 @@
         with it
       </p>
       <footer>
-        <form class="contact_last_session" action="https://formspree.io/f/xqkngjdg" method="POST">
+        <form class="contact_last_session contact-form" action="https://formspree.io/f/xqkngjdg" method="POST">
           <ul class="form_contact">
             <li>
-              <label for="text1"></label>
-              <input type="text" id="text1" name="user_name" maxlength="30" placeholder="Yeremias"
-                pattern="[a-z]{1,30}" />
+              <label for="user-name"></label>
+              <input required type="text" class="text1" id="user-name" name="user_name" maxlength="30" placeholder="Yeremias" 
+                />
             </li>
             <li>
-              <label for="text1"></label>
-              <input type="email" class="text1" size="32" name="contact_email" maxlength="32"
-                placeholder="natajayanj14@gmail.com" title="Please Enter Valide Email Id" />
+              <label for="user-email"></label>
+              <input type="email" id="user-email" class="text1" size="32" name="contact_email" maxlength="32"
+                placeholder="natajayanj14@gmail.com" title="Please Enter Valide Email Id" required/>
             </li>
             <li>
-              <label for="msg"></label>
-              <textarea id="msg" maxlength="500" name="user_message" placeholder="Write your message here">
+              <label for="user-message"></label>
+              <textarea class="msg" id="user-message" maxlength="500" name="user_message" placeholder="Write your message here">
                 </textarea>
             </li>
           </ul>
-          <button class="get_in_touch" type="submit">Get It Touch</button>
+          <div class="form-submission-error"></div>
+          <button class="get_in_touch submit" type="submit">Get It Touch</button>
         </form>
       </footer>
     </section>
   </main>
+  <script src="validation.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
