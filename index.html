@@ -23,7 +23,6 @@
         <li class="items items1"><a href="#works" class="nav-link portfolio-link">Portfolio</a></li>
         <li class="items"><a href="#about-myself" class="nav-link about-link">About</a></li>
         <li class="items"><a href="#contact-me" class="nav-link contact-link">Contact</a></li>
-        <li class="unerline-bar-navmenu"></li>
       </ul>
 
       <div class="ham">
@@ -806,31 +805,29 @@
         with it
       </p>
       <footer>
-        <form class="contact_last_session contact-form" action="https://formspree.io/f/xqkngjdg" method="POST">
+        <form class="contact_last_session" action="https://formspree.io/f/xqkngjdg" method="POST">
           <ul class="form_contact">
             <li>
-              <label for="user-name"></label>
-              <input required type="text" class="text1" id="user-name" name="user_name" maxlength="30" placeholder="Yeremias" 
-                />
+              <label for="text1"></label>
+              <input type="text" id="text1" name="user_name" maxlength="30" placeholder="Yeremias"
+                pattern="[a-z]{1,30}" />
             </li>
             <li>
-              <label for="user-email"></label>
-              <input type="email" id="user-email" class="text1" size="32" name="contact_email" maxlength="32"
-                placeholder="natajayanj14@gmail.com" title="Please Enter Valide Email Id" required/>
+              <label for="text1"></label>
+              <input type="email" class="text1" size="32" name="contact_email" maxlength="32"
+                placeholder="natajayanj14@gmail.com" title="Please Enter Valide Email Id" />
             </li>
             <li>
-              <label for="user-message"></label>
-              <textarea class="msg" id="user-message" maxlength="500" name="user_message" placeholder="Write your message here">
+              <label for="msg"></label>
+              <textarea id="msg" maxlength="500" name="user_message" placeholder="Write your message here">
                 </textarea>
             </li>
           </ul>
-          <div class="form-submission-error"></div>
-          <button class="get_in_touch submit" type="submit">Get It Touch</button>
+          <button class="get_in_touch" type="submit">Get It Touch</button>
         </form>
       </footer>
     </section>
   </main>
-  <script src="validation.js"></script>
   <script src="index.js"></script>
   <script src="data.js"></script>
 </body>
