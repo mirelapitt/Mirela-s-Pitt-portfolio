@@ -89,9 +89,18 @@ header {
   background-color: rgba(96, 112, 255, 0.8);
   width: 100%;
   margin-top: -80px;
-  height: 100%;
   backdrop-filter: blur(4px);
   align-items: flex-start;
+  min-height: 685px;
+}
+
+.unerline-bar-navmenu {
+  background-color: #0d151e;
+  width: 134px;
+  height: 5px;
+  border: 10px;
+  margin: auto;
+  margin-top: 432px;
 }
 
 .portfolio-link {
@@ -595,8 +604,8 @@ form {
   float: left;
 }
 
-#msg,
-#msg2 {
+.msg,
+.msg2 {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -699,6 +708,23 @@ form {
 
 .tonic-image {
   display: none;
+=======
+/* form validation */
+
+.form-submission-error {
+  background: azure;
+  color: red;
+  margin: 10px 0;
+  width: 105%;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 33px;
+
 }
 
 /* media query */
@@ -1015,6 +1041,7 @@ form {
     margin-top: -37px;
     margin-bottom: -1rem;
   }
+
   
   .img_mobi_modal {
     display: none;
@@ -1023,14 +1050,39 @@ form {
   .tonic-image {
     background-image: url('./modal_img/modal_nature.jpg');
     display: flex;
+<<<<<<< HEAD
     max-width: 519px;
     min-width: 286px;;
     height: 280px;
     background-size: cover;
+=======
+    height: 291px;
+
+
+  .contactme-title,
+  .contactme-title2 {
+    margin-left: -76px;
+  }
+
+  .form-submission-error {
+    background: azure;
+    color: red;
+    margin: 10px 0;
+    margin-left: -35px;
+  }
+
+  .error {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+>>>>>>> 4d746354aaa454cd72e74010e7199ec0d6c69617
   }
 }
 
 /* breakpoint */
+
 @media screen and (max-width: 765px) {
   .bar {
     background-color: #0f27ff;
