@@ -688,6 +688,17 @@ form {
   padding-bottom: 50px;
 }
 
+.img_mobi_modal {
+  display: flex;
+  background-image: url('./images_mobile/Snapshoot-icon.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.tonic-image {
+  display: none;
+}
+
 /* media query */
 @media screen and (min-width: 765px) {
   .bar {
@@ -1001,6 +1012,16 @@ form {
     margin-left: 363px;
     margin-top: -37px;
     margin-bottom: -1rem;
+  }
+  
+  .img_mobi_modal {
+    display: none;
+  }
+
+  .tonic-image {
+    background-image: url('./modal_img/modal_nature.jpg');
+    display: flex;
+    height: 291px;
   }
 }
 

@@ -4,8 +4,8 @@ const projects = [
     name: 'Tonic',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and',
-    featuredImage: './modal_img/modal_nature.jpg',
-    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+    featuredImage:'./modal_img/modal_nature.jpg',
+    technologies: ['html', 'ruby', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
   {
@@ -48,6 +48,7 @@ openTonicModal.addEventListener('click', (e) => {
     name: projectName,
     description: projectDescription,
     featuredImage: projectFeaturedImage,
+    featuredImageMobi: projectFeaturedImageMobi,
     technologies: projectTechnologies,
     stacks: projectStacks,
   } = tonic;
@@ -62,9 +63,8 @@ openTonicModal.addEventListener('click', (e) => {
   document.querySelector('.tonic-html').textContent = html;
   document.querySelector('.tonic-css').textContent = css;
   document.querySelector('.tonic-javascript').textContent = js;
-  document.querySelector('.tonic-github').textContent = github;
   document.querySelector('.tonic-ruby').textContent = ruby;
-  document.querySelector('.tonic-bootstraps').textContent = Bootstraps;
+  
 
   tonicModalContainer.classList.add('show');
 });
@@ -94,7 +94,7 @@ openMultipostModal.addEventListener('click', (e) => {
   document.querySelector('.multipost-stack2').textContent = backend;
   document.querySelector('.multipost-stack3').textContent = year;
   document.querySelector('.multipost-description').textContent = projectDescription;
-  document.querySelector('.multipost-image').src = projectFeaturedImage;
+  document.querySelector('.tonic-image').src = projectFeaturedImage;
   document.querySelector('.multipost-html').textContent = html;
   document.querySelector('.multipost-css').textContent = css;
   document.querySelector('.multipost-javascript').textContent = js;
@@ -128,7 +128,7 @@ openFacebookModal.addEventListener('click', (e) => {
   document.querySelector('.facebook-stack2').textContent = backend;
   document.querySelector('.facebook-stack3').textContent = year;
   document.querySelector('.facebook-description').textContent = projectDescription;
-  document.querySelector('.facebook-image').src = projectFeaturedImage;
+  document.querySelector('.tonic-image').src = projectFeaturedImage;
   document.querySelector('.facebook-html').textContent = html;
   document.querySelector('.facebook-css').textContent = css;
   document.querySelector('.facebook-javascript').textContent = js;
@@ -162,7 +162,7 @@ openUberModal.addEventListener('click', (e) => {
   document.querySelector('.uber-stack2').textContent = backend;
   document.querySelector('.uber-stack3').textContent = year;
   document.querySelector('.uber-description').textContent = projectDescription;
-  document.querySelector('.uber-image').src = projectFeaturedImage;
+  document.querySelector('.tonic-image').src = projectFeaturedImage;
   document.querySelector('.uber-html').textContent = html;
   document.querySelector('.uber-css').textContent = css;
   document.querySelector('.uber-javascript').textContent = js;
