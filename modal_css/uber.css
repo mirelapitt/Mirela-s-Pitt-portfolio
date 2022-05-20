@@ -22,7 +22,7 @@
 }
 
 .uber-modal {
-  width: 50%;
+  width: 42%;
   max-height: 130%;
   padding: 30px 50px;
   background-color: #fff;
@@ -67,6 +67,7 @@
 .uber-modal p {
   margin: 10px 0;
   opacity: 0.8;
+  width: 96%;
 }
 
 .uber-modal .technologies ul li {
@@ -156,8 +157,8 @@
 
 @media (max-width: 992px) {
   .uber-modal {
-    width: 80%;
-    max-width: 90%;
+    max-width: 344px;
+    min-width: 344px;
     padding: 30px 20px;
   }
 
@@ -191,7 +192,19 @@
 
   .uber-contents .network {
     display: flex;
+    justify-content: space-around;
+  }
+
+  .uber-modal p {
+    margin: 10px 0;
+    opacity: 0.8;
+    width: 96%;
+  }
+
+  .uber-contents .network {
+    display: flex;
     justify-content: space-evenly;
-    margin-left: -90px;
+    padding-right: 118px;
+    margin-left: -18px;
   }
 }

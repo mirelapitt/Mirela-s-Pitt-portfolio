@@ -53,7 +53,7 @@ openTonicModal.addEventListener('click', (e) => {
     stacks: projectStacks,
   } = tonic;
   const [canopy, backend, year] = projectStacks;
-  const [html, css, js, github, ruby, Bootstraps] = projectTechnologies;
+  const [html, css, js, ruby] = projectTechnologies;
   document.querySelector('.tonic-title').textContent = projectName;
   document.querySelector('.tonic-stack1').textContent = canopy.toUpperCase();
   document.querySelector('.tonic-stack2').textContent = backend;

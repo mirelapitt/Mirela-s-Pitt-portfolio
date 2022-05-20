@@ -21,7 +21,7 @@
 }
 
 .tonic-modal {
-  width: 50%;
+  width: 41%;
   max-height: 95%;
   padding: 30px 50px;
   background-color: #fff;
@@ -158,13 +158,14 @@
   display: flex;
 }
 
+
 /* Media Queries for Desktop Screen - All scrren sizes within the range of 992px and below. */
 
 @media (max-width: 992px) {
   .tonic-modal {
-    width: 80%;
-    max-width: 90%;
-    padding: 30px 20px;
+    max-width: 344px;
+    min-width: 344px;
+    padding: 30px 12px;
   }
 
   .tonic-modal h1 {
@@ -185,5 +186,16 @@
 
   .tonic-side-container {
     display: block;
+  }
+
+  .tonic-modal p {
+    margin: 10px 0;
+    opacity: 0.8;
+    width: 100%;
+  }
+
+  .tonic-contents .network {
+    padding-right: 118px;
+    margin-left: -18px;
   }
 }

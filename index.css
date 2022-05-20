@@ -693,6 +693,8 @@ form {
   background-image: url('./images_mobile/Snapshoot-icon.jpg');
   height: 200px;
   background-repeat: no-repeat;
+  max-width: 301px;
+  min-width: 301px;
 }
 
 .tonic-image {
@@ -1021,7 +1023,10 @@ form {
   .tonic-image {
     background-image: url('./modal_img/modal_nature.jpg');
     display: flex;
-    height: 291px;
+    max-width: 519px;
+    min-width: 286px;;
+    height: 280px;
+    background-size: cover;
   }
 }
 
