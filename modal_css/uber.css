@@ -190,11 +190,6 @@
     margin-left: -11px;
   }
 
-  .uber-contents .network {
-    display: flex;
-    justify-content: space-around;
-  }
-
   .uber-modal p {
     margin: 10px 0;
     opacity: 0.8;

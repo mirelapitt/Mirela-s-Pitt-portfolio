@@ -158,7 +158,6 @@
   display: flex;
 }
 
-
 /* Media Queries for Desktop Screen - All scrren sizes within the range of 992px and below. */
 
 @media (max-width: 992px) {

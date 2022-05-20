@@ -178,11 +178,6 @@
     display: block;
   }
 
-  .facebook-contents .network {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
   .facebook-modal p {
     margin: 10px 0;
     opacity: 0.8;
@@ -190,6 +185,8 @@
   }
 
   .facebook-contents .network {
+    display: flex;
+    justify-content: space-evenly;
     padding-right: 118px;
     margin-left: -18px;
   }

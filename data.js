@@ -4,7 +4,7 @@ const projects = [
     name: 'Tonic',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and',
-    featuredImage:'./modal_img/modal_nature.jpg',
+    featuredImage: './modal_img/modal_nature.jpg',
     technologies: ['html', 'ruby', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
@@ -48,7 +48,6 @@ openTonicModal.addEventListener('click', (e) => {
     name: projectName,
     description: projectDescription,
     featuredImage: projectFeaturedImage,
-    featuredImageMobi: projectFeaturedImageMobi,
     technologies: projectTechnologies,
     stacks: projectStacks,
   } = tonic;
@@ -64,7 +63,6 @@ openTonicModal.addEventListener('click', (e) => {
   document.querySelector('.tonic-css').textContent = css;
   document.querySelector('.tonic-javascript').textContent = js;
   document.querySelector('.tonic-ruby').textContent = ruby;
-  
 
   tonicModalContainer.classList.add('show');
 });
